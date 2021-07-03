@@ -627,13 +627,17 @@
     "message": "Не удалось подключиться к установщику патча.\nПожалуйста, сообщите об этой ошибке.",
     "description": "PatchInstaller.WaitOnHello"
   },
+  "PatchInstallerInstallFailed": {
+    "message": "The patch installer ran into an error.\nPlease report this error.\n\nPlease try again or use the official launcher.",
+    "description": "PatchInstaller.ServerOnReceivedRequest"
+  },
   "PatchManNoInstaller": {
     "message": "The patch installer could not start correctly.\n\nIf you have denied access to it, please try again. If this issue persists, please contact us via Discord.",
     "description": "PatchManager.Start"
   },
   "PatchManDlFailure": {
     "message": "XIVLauncher не смог проверить загруженные файлы игры.\n\nОбычно это указывает на проблему с подключением к Интернету.\nЕсли эта ошибка повторится, попробуйте использовать VPN, настроенный на Японию.\n\nКонтекст: {0}\n{1}",
-    "description": "<>c__DisplayClass28_0.<DownloadPatchAsync>b__1"
+    "description": "<>c__DisplayClass31_0.<DownloadPatchAsync>b__1"
   },
   "DalamudAntivirusHint": {
     "message": "Внутриигровое дополнение столкнулось с ошибкой.\n\nСкорее всего, это вызвано вашим антивирусом. Пожалуйста, внесите в исключения файлы, помещенные на карантин, или отключите внутриигровое дополнение.",

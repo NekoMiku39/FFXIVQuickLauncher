@@ -627,13 +627,17 @@
     "message": "Konnte den Patch-Installer nicht finden.\nBitte melde diesen Fehler.",
     "description": "PatchInstaller.WaitOnHello"
   },
+  "PatchInstallerInstallFailed": {
+    "message": "Ein Fehler ist aufgetreten.\nMelde diesen Fehler bitte bei uns.\n\nVersuche es dann erneut oder nutze den offiziellen Launcher.",
+    "description": "PatchInstaller.ServerOnReceivedRequest"
+  },
   "PatchManNoInstaller": {
     "message": "Der Patch-Installer konnte nicht korrekt starten.\n\nFalls du den Zugriff verweigert hast, versuche es bitte erneut. Falls dieses Problem weiterhin besteht, kontaktiere uns bitte über Discord.",
     "description": "PatchManager.Start"
   },
   "PatchManDlFailure": {
     "message": "XIVLauncher konnte die heruntergeladenen Spieldateien nicht verifizieren.\n\nDies deutet normalerweise auf ein Problem mit deiner Internetverbindung hin.\nFalls dieser Fehler erneut auftritt, versuche, eine VPN-Verbindung nach Japan zu nutzen.\n\nKontext: {0}\n{1}",
-    "description": "<>c__DisplayClass28_0.<DownloadPatchAsync>b__1"
+    "description": "<>c__DisplayClass31_0.<DownloadPatchAsync>b__1"
   },
   "DalamudAntivirusHint": {
     "message": "Das In-Game Addon konnte nicht starten.\n\nDein Anti-Virus-Programm hat XIVLauncher wahrscheinlich fehlerhafterweise als einen Virus erkannt. Bitte ändere die Einstellungen des Programms oder deaktiviere das In-Game Addon.",

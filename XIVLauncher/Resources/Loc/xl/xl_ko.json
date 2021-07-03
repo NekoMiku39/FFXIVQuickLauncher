@@ -627,13 +627,17 @@
     "message": "패치 인스톨러에 연결하지 못했습니다.\n오류를 보고해주세요.",
     "description": "PatchInstaller.WaitOnHello"
   },
+  "PatchInstallerInstallFailed": {
+    "message": "The patch installer ran into an error.\nPlease report this error.\n\nPlease try again or use the official launcher.",
+    "description": "PatchInstaller.ServerOnReceivedRequest"
+  },
   "PatchManNoInstaller": {
     "message": "The patch installer could not start correctly.\n\nIf you have denied access to it, please try again. If this issue persists, please contact us via Discord.",
     "description": "PatchManager.Start"
   },
   "PatchManDlFailure": {
     "message": "XIVLancher가 다운로드 된 게임 파일을 검증할 수 없습니다.\n\n보통 사용자의 인터넷 연결에 문제가 있다는 것을 의미합니다.\n다시 이 에러가 발생한다면 일본 서버로 VPN을 사용하십시오.\n\nContext: {0}\n{1}",
-    "description": "<>c__DisplayClass28_0.<DownloadPatchAsync>b__1"
+    "description": "<>c__DisplayClass31_0.<DownloadPatchAsync>b__1"
   },
   "DalamudAntivirusHint": {
     "message": "인게임 애드온에 에러가 발생했습니다.\n\n백신으로 인해 일어났을 수 있습니다. 검역된 파일을 검사 에외로 두거나 인게임 애드온을 비활성화 하십시오.",
